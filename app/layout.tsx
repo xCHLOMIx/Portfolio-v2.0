@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Playfair_Display } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
 
 const fair = Playfair_Display({
   variable: "--font-fair",
@@ -21,6 +20,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/vercel.svg" type="image/png" />
+      </head>
       <body className={`${inter.className} bar scroll-smooth antialiased bg-bg`}>
         {children}
       </body>
