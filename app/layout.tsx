@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/vercel.svg" type="image/png" />
       </head>
-      <body className={`${inter.className} bar scroll-smooth antialiased bg-bg`}>
+      <body className={`${inter.className} bar scroll-smooth antialiased bg-bg not-dark:bg-light-bg`}>
         {children}
       </body>
     </html>
