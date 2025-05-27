@@ -7,6 +7,7 @@ import HeroSection from "./sections/HeroSection";
 import Link from "next/link";
 import AboutSection from "./sections/AboutSection";
 import { useState } from "react";
+import SkillsSection from "./sections/SkillsSection";
 
 const fair = Playfair_Display({
   variable: "--font-fair",
@@ -22,10 +23,11 @@ export default function Home() {
   const [username, setUsername] = useState('xCHLOMIx')
 
   return (
-    <div className="flex flex-col text-white items-center pt-4">
+    <div className="flex flex-col w-full text-white items-center pt-4 pb-4">
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
     </div>
   );
 }

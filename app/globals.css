@@ -13,6 +13,7 @@
   --color-light-alt-gray: #282828;
   --color-light-alt2: #232523;
   --color-light-alt3: #EFF6F3;
+  --color-light-alt4: #EFF6F3;
   /* Dark */
   --color-bg: #2D302E;
   --color-stroke: #393939;
@@ -24,10 +25,12 @@
   --color-alt-gray: #D9D9D9;
   --color-alt2: #000000;
   --color-alt3: #323533;
+  --color-alt4: #262927;
 }
 
 * {
   scroll-behavior: smooth;
+  /* background-color: #; */
 }
 
 .bar::-webkit-scrollbar{

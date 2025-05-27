@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className='gap-2 flex max-md:hidden'>
                 {links.map((link) => (
                     <a href={`#${link.text}`} key={link.text}>
-                        <div onClick={() => setTheLink(link.text)} className={`link ${theLink.includes(link.text) ? "bg-alt2/5 transition duration-1000" : "bg-alt2/0 transition hover:bg-alt2/3 duration-300"} `} key={link.text}>
+                        <div onClick={() => setTheLink(link.text)} className={`link ${theLink.includes(link.text) ? "bg-alt3/40 not-dark:bg-black/7 transition duration-1000" : "bg-alt2/0 transition hover:bg-alt3/15 not-dark:hover:bg-black/3 duration-300"} `} key={link.text}>
                             <span>{link.text}</span>
                         </div>
                     </a>
@@ -32,10 +32,10 @@ const Navbar = () => {
             </div>
             <div onClick={() => setMenu(!menu)} className='bg-font not-dark:bg-light-font text-alt not-dark:text-light-alt p-3 rounded-2xl max-md:rounded-xl max-sm:rounded-lg md:hidden cursor-pointer relative backdrop-blur-lg'>
                 <CiMenuFries className='w-6 h-auto max-sm:w-5' />
-                <div className={`${menu ? "" : "hidden"} gap-2 flex flex-col absolute p-2 top-[130%] right-0 rounded-3xl max-md:rounded-2xl max-sm:rounded-2xl bg-bg-alt border border-stroke not-dark:border-light-stroke`}>
+                <div className={`${menu ? "" : "hidden"} gap-2 flex flex-col absolute p-2 top-[130%] right-0 rounded-3xl max-md:rounded-2xl max-sm:rounded-2xl bg-bg-alt not-dark:bg-light-bg-alt border border-stroke not-dark:border-light-stroke`}>
                     {links.map((link) => (
                         <a href={`#${link.text}`} key={link.text}>
-                            <div onClick={() => setTheLink(link.text)} className={`link text-start ${theLink.includes(link.text) ? "bg-alt2/5 not-dark:bg-light-alt2/5 transition duration-1000" : "bg-alt2/0 transition hover:bg-alt2/3 not-dark:hover:bg-light-alt2/3 duration-300"} `}>
+                            <div onClick={() => setTheLink(link.text)} className={`link text-start ${theLink.includes(link.text) ? "bg-alt3/40 not-dark:bg-light-alt3/40 transition duration-1000" : "bg-alt2/0 transition hover:bg-alt3/15 not-dark:hover:bg-light-alt2/3 duration-300"} `}>
                                 <span>{link.text}</span>
                             </div>
                         </a>

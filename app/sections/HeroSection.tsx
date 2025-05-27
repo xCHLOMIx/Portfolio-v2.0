@@ -22,7 +22,7 @@ const HeroSection = () => {
           </div>
         </div>
         <h1 className={`${fair.className} text-font not-dark:text-light-font text-8xl max-md:text-7xl max-sm:text-6xl`}>Chlomi</h1>
-        <p className="text-gray not-dark:text-light-alt-gray text-2xl font-light  max-md:text-xl max-sm:text-lg">I design and build stuff for the web</p>
+        <p className="text-gray not-dark:text-light-gray text-2xl font-light  max-md:text-xl max-sm:text-lg">I design and build stuff for the web</p>
         <p className="max-md:text-sm max-sm:text-xs text-font not-dark:text-light-font">Design meets code — I’m an aspiring full-stack developer who makes apps that look good and work even better.</p>
         <div className="mt-10 max-md:mt-8 max-sm:mt-6">
           <Button text="Reach out" />

@@ -15,7 +15,7 @@ const jet = JetBrains_Mono({
 const AboutSection = () => {
     return (
         <section id="about" className="h-screen flex gap-16 flex-col w-11/12 max-w-4xl max-auto justify-center items-center">
-            <h1 className="text-2xl text-font not-dark:text-light-font">About me</h1>
+            <h1 className="text-3xl max-md:text-2xl max-sm:text-xl text-font not-dark:text-light-font font-semibold">About me</h1>
             <div className="grid grid-cols-4 max-md:grid-cols-3 gap-5 max-md:gap-4 max-sm:gap-2">
                 <div className="bg-alt3 not-dark:bg-light-alt3 p-8 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl text-font not-dark:text-light-font max-md:text-sm max-sm:text-xs flex flex-col gap-3 font-light rounded-3xl col-span-3">
                     <p>I am <span className={`${fair.className} text-red not-dark:text-light-red font-bold`}>Chlomi.</span></p>
@@ -23,8 +23,8 @@ const AboutSection = () => {
                     <p>Frontend and backend development are my top priorities</p>
                 </div>
                 <div className="bg-alt3 not-dark:bg-light-alt3 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl rounded-3xl flex justify-center items-center p-6">
-                    <div className="w-full h-full rounded-full bg-black not-dark:bg-white overflow-hidden flex justify-center items-center">
-                        <Image src="/pfp.png" alt="Picture" width={100} height={100} className="h-full w-full object-bottom" />
+                    <div className="w-full h-full rounded-full bg-black not-dark:bg-white overflow-hidden flex justify-center items-center object-fill">
+                        <Image src="/pfp.png" alt="Picture" width={100} height={100} className="h-full w-full object-cover" />
                     </div>
                 </div>
                 <div className="bg-alt3 not-dark:bg-light-alt3 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl min-h-32 rounded-3xl flex flex-col gap-2 justify-center items-center p-8">
