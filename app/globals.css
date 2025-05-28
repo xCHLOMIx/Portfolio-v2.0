@@ -3,6 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  /* Light */
   --color-light-bg: #F6FFFB;
   --color-light-stroke: #D7D7D7;
   --color-light-bg-alt: #F9FEFC;
@@ -11,13 +12,16 @@
   --color-light-gray: #949997;
   --color-light-alt: #F9FEFC;
   --color-light-alt-gray: #282828;
+  --color-light-font-alt: #2D302E;
   --color-light-alt2: #232523;
   --color-light-alt3: #EFF6F3;
   --color-light-alt4: #EFF6F3;
+  --color-light-alt5: #2D302E;
   /* Dark */
   --color-bg: #2D302E;
   --color-stroke: #393939;
   --color-bg-alt: #1B1D1C;
+  --color-font-alt: #B7BEBB;
   --color-red: #FFB1B1;
   --color-font: #F6FFFB;
   --color-gray: #7F8380;
@@ -26,6 +30,7 @@
   --color-alt2: #000000;
   --color-alt3: #323533;
   --color-alt4: #262927;
+  --color-alt5: #2D302E;
 }
 
 * {
@@ -38,6 +43,10 @@
 
 .link {
   @apply capitalize p-3 rounded-2xl px-7 max-md:pl-3 text-font not-dark:text-light-font max-md:text-sm max-sm:text-xs max-md:rounded-xl max-sm:rounded-lg font-light cursor-pointer;
+}
+
+.skill {
+  @apply text-font max-md:text-sm max-sm:text-xs w-max not-dark:text-light-font rounded-2xl max-md:rounded-xl max-sm:rounded-lg border border-stroke not-dark:border-light-stroke px-4 bg-alt4 not-dark:bg-light-alt4 p-3 max-md:p-2 max-md:px-3 max-sm:p-1.5 max-sm:px-2 flex items-center gap-2;
 }
 
 .animation {

@@ -24,7 +24,7 @@ const HeroSection = () => {
       <div className='absolute animationTwo not-dark:border-light-stroke not-dark:bg-light-alt4 not-dark:text-light-font right-2/12 max-md:p-1.5 max-md:hidden top-3/12 bg-alt4 p-2.5 rounded-xl border border-stroke'>
         <FaFigma className='w-6 h-auto max-md:w-5' />
       </div>
-      <div className='absolute animationTwo not-dark:border-light-stroke not-dark:bg-light-alt4 not-dark:text-light-font right-4/12 max-md:p-1.5 max-md:hidden bottom-4/12 bg-alt4 max-lg:right-3/12 p-2.5 rounded-xl border border-stroke'>
+      <div className='absolute animation not-dark:border-light-stroke not-dark:bg-light-alt4 not-dark:text-light-font right-4/12 max-md:p-1.5 max-md:hidden bottom-4/12 bg-alt4 max-lg:right-3/12 p-2.5 rounded-xl border border-stroke'>
         <SiMongodb className='w-6 h-auto max-md:w-5' />
       </div>
       <div className='absolute animationTwo not-dark:border-light-stroke not-dark:bg-light-alt4 not-dark:text-light-font left-3/12 max-md:p-1.5 max-md:hidden bottom-5/12 max-md:bottom-3/12 bg-alt4 p-2.5 rounded-xl border border-stroke'>

@@ -8,6 +8,7 @@ import Link from "next/link";
 import AboutSection from "./sections/AboutSection";
 import { useState } from "react";
 import SkillsSection from "./sections/SkillsSection";
+import ProjectSection from "./sections/ProjectSection";
 
 const fair = Playfair_Display({
   variable: "--font-fair",
@@ -28,6 +29,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <SkillsSection />
+      <ProjectSection />
     </div>
   );
 }
