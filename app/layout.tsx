@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/vercel.svg" type="image/png" />
       </head>
