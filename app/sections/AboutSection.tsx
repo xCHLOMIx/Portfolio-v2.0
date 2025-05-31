@@ -19,7 +19,7 @@ const AboutSection = () => {
             <div className="grid grid-cols-4 max-md:grid-cols-3 gap-5 max-md:gap-4 max-sm:gap-2">
                 <div className="bg-alt3 not-dark:bg-light-alt3 p-8 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl text-font not-dark:text-light-font max-md:text-sm max-sm:text-xs flex flex-col gap-3 font-light rounded-3xl col-span-3">
                     <p>I am <span className={`${fair.className} text-red not-dark:text-light-red font-bold`}>Chlomi Justifié Gutabarwa.</span></p>
-                    <p>A full-stack developer with passion to design and build websites that people enjoy using. I contribute to every step of the process.</p>
+                    <p>A UI/UX Designer and Full stack developer with passion to design and build websites that people enjoy using. I contribute to every step of the process.</p>
                     <p>Frontend and backend development are my top priorities</p>
                 </div>
                 <div className="bg-alt3 not-dark:bg-light-alt3 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl rounded-3xl flex justify-center items-center p-6">
@@ -35,8 +35,8 @@ const AboutSection = () => {
                     <h2 className="font-bold text-6xl max-md:text-5xl max-sm:text-4xl text-font not-dark:text-light-font">2</h2>
                     <span className="font-extralight max-md:text-sm max-sm:text-xs text-center text-font not-dark:text-light-font">Project Contributions</span>
                 </div>
-                <div className="bg-alt3 not-dark:bg-light-alt3 max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl max-md:col-span-3 col-span-2 rounded-3xl">
-                    
+                <div className="bg-alt3 not-dark:bg-light-alt3 flex justify-center items-center max-md:p-4 max-md:rounded-2xl max-sm:rounded-xl max-md:col-span-3 col-span-2 rounded-3xl">
+                    What do I even put here 👀 ?
                 </div>
             </div>
         </section>

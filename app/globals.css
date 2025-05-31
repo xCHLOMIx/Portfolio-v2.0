@@ -17,6 +17,7 @@
   --color-light-alt3: #EFF6F3;
   --color-light-alt4: #EFF6F3;
   --color-light-alt5: #2D302E;
+  --color-light-footer: #DFE5E2;
   /* Dark */
   --color-bg: #2D302E;
   --color-stroke: #393939;
@@ -31,6 +32,7 @@
   --color-alt3: #323533;
   --color-alt4: #262927;
   --color-alt5: #2D302E;
+  --color-footer: #EDEEED;
 }
 
 * {
@@ -39,6 +41,10 @@
 
 .bar::-webkit-scrollbar{
   display: none;
+}
+
+.input {
+  @apply border max-md:text-sm placeholder:text-gray max-sm:text-xs border-stroke not-dark:border-light-stroke p-4 max-md:p-3 font-light rounded-2xl max-md:rounded-xl max-sm:rounded-lg outline-0 focus:border-white/20 not-dark:focus:border-black/30;
 }
 
 .link {
@@ -57,6 +63,18 @@
 .animationTwo {
   animation: move 3s ease-in-out infinite;
   animation-delay: .3s;
+  box-shadow: 0px 0px 20px #FFB1B120;
+}
+
+.animationThree {
+  animation: move 3s ease-in-out infinite;
+  animation-delay: .5s;
+  box-shadow: 0px 0px 20px #FFB1B120;
+}
+
+.animationFour {
+  animation: move 3s ease-in-out infinite;
+  animation-delay: .2s;
   box-shadow: 0px 0px 20px #FFB1B120;
 }
 

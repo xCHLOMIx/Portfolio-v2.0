@@ -28,7 +28,9 @@ const Navbar = () => {
                         </div>
                     </a>
                 ))}
-                <Button text='Get in touch' />
+                <a href="#contact">
+                    <Button text='Get in touch' />
+                </a>
             </div>
             <div onClick={() => setMenu(!menu)} className='bg-font not-dark:bg-light-font text-alt not-dark:text-light-alt p-3 rounded-2xl max-md:rounded-xl max-sm:rounded-lg md:hidden cursor-pointer relative backdrop-blur-lg'>
                 <CiMenuFries className='w-6 h-auto max-sm:w-5' />
@@ -40,7 +42,9 @@ const Navbar = () => {
                             </div>
                         </a>
                     ))}
-                    <button className='px-7 p-3 bg-font not-dark:bg-light-font rounded-2xl text-alt not-dark:text-light-alt font-light w-max max-md:text-sm max-sm:text-xs max-md:rounded-xl max-sm:rounded-lg'>Get in touch</button>
+                    <a href="#contact">
+                        <button className='px-7 p-3 bg-font not-dark:bg-light-font rounded-2xl text-alt not-dark:text-light-alt font-light w-max max-md:text-sm max-sm:text-xs max-md:rounded-xl max-sm:rounded-lg'>Get in touch</button>
+                    </a>
                 </div>
             </div>
         </div>
