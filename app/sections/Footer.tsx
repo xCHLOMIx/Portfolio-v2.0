@@ -5,7 +5,7 @@ import { TbSend } from 'react-icons/tb'
 
 const Footer = () => {
     return (
-        <div id='contact' className='bg-footer not-dark:bg-light-footer relative flex px-6 max-md:px-10 flex-col items-center pt-14 max-md:pt-10 max-sm:pt-10 pb-6 w-full mt-28 rounded-t-4xl'>
+        <div id='contact' className='bg-footer not-dark:bg-white not-dark:border border-light-stroke relative flex px-6 max-md:px-10 flex-col items-center pt-14 max-md:pt-10 max-sm:pt-10 pb-6 w-full mt-28 rounded-t-4xl'>
             <form action="">
                 <h1 className='text-3xl max-md:text-2xl max-sm:text-xl text-font not-dark:text-light-font'>Get in touch</h1>
                 <div className='mt-10'>
